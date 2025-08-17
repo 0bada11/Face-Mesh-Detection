@@ -1,2 +1,22 @@
-# Face-Mesh-Detection
-This project is a Face Mesh Detector using Mediapipe and OpenCV. It detects and draws facial landmarks in real time, provides the landmark coordinates, and displays the FPS on the video feed.
+# Face Mesh Detection with Mediapipe & OpenCV
+
+## Overview
+This project implements a **Face Mesh Detector** using [Mediapipe FaceMesh](https://developers.google.com/mediapipe/solutions/vision/face_mesh).  
+It can detect multiple faces, draw their landmarks (contours or tessellation), and extract the landmark coordinates in real time.
+
+---
+
+## Features
+- Real-time face mesh detection with Mediapipe
+- Support for multiple faces
+- Option to draw landmarks (contours or tessellation)
+- Extracts face landmark coordinates (id, x, y)
+- FPS display on the video feed
+
+---
+
+## Requirements
+Install dependencies:
+
+```bash
+pip install opencv-python mediapipe
